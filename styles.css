@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#player-throw, #computer-throw, #outcome, #scoreboard {
+    margin: 20px;
+}
+
+.choice {
+    width: 100px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.choice:hover {
+    border: 3px solid blue;
+}
+
+#computer-choice {
+    width: 100px;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#scoreboard {
+    font-size: 18px;
+}
